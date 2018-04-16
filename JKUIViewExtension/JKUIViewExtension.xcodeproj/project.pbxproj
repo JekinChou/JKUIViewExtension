@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185D0F242081DB1B006C45B8 /* UIImage+JKImageExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D0F232081DB1B006C45B8 /* UIImage+JKImageExtension.m */; };
 		18E1291E207B60F000F3B70C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1291D207B60F000F3B70C /* AppDelegate.m */; };
 		18E12921207B60F000F3B70C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E12920207B60F000F3B70C /* ViewController.m */; };
 		18E12924207B60F000F3B70C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E12922207B60F000F3B70C /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		185D0F222081DB1B006C45B8 /* UIImage+JKImageExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+JKImageExtension.h"; sourceTree = "<group>"; };
+		185D0F232081DB1B006C45B8 /* UIImage+JKImageExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JKImageExtension.m"; sourceTree = "<group>"; };
 		18E12919207B60F000F3B70C /* JKUIViewExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKUIViewExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E1291C207B60F000F3B70C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18E1291D207B60F000F3B70C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -80,6 +83,8 @@
 			children = (
 				18E12933207B610200F3B70C /* UIView+JKUIViewExtension.h */,
 				18E12934207B610200F3B70C /* UIView+JKUIViewExtension.m */,
+				185D0F222081DB1B006C45B8 /* UIImage+JKImageExtension.h */,
+				185D0F232081DB1B006C45B8 /* UIImage+JKImageExtension.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				18E12921207B60F000F3B70C /* ViewController.m in Sources */,
 				18E1292C207B60F200F3B70C /* main.m in Sources */,
 				18E1291E207B60F000F3B70C /* AppDelegate.m in Sources */,
+				185D0F242081DB1B006C45B8 /* UIImage+JKImageExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +304,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37D868NMZM;
 				INFOPLIST_FILE = JKUIViewExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +322,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37D868NMZM;
 				INFOPLIST_FILE = JKUIViewExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
