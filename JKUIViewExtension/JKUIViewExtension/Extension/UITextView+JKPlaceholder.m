@@ -6,9 +6,9 @@
 //
 
 #import <objc/runtime.h>
-#import "UITextView+Placeholder.h"
+#import "UITextView+JKPlaceholder.h"
 
-@implementation UITextView (Placeholder)
+@implementation UITextView (JKPlaceholder)
 
 #pragma mark - Swizzle Dealloc
 

@@ -6,7 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface UITextView (Placeholder)
+@interface UITextView (JKPlaceholder)
 @property (nonatomic, readonly)UILabel *placeholderLabel;
 @property (nonatomic, strong)NSString *placeholder;
 @property (nonatomic, strong)NSAttributedString *attributedPlaceholder;

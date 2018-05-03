@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		185D0F242081DB1B006C45B8 /* UIImage+JKImageExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 185D0F232081DB1B006C45B8 /* UIImage+JKImageExtension.m */; };
-		18B5A243209AE6420063684D /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5A242209AE6420063684D /* UITextView+Placeholder.m */; };
+		18B5A243209AE6420063684D /* UITextView+JKPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B5A242209AE6420063684D /* UITextView+JKPlaceholder.m */; };
 		18E1291E207B60F000F3B70C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1291D207B60F000F3B70C /* AppDelegate.m */; };
 		18E12921207B60F000F3B70C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E12920207B60F000F3B70C /* ViewController.m */; };
 		18E12924207B60F000F3B70C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E12922207B60F000F3B70C /* Main.storyboard */; };
@@ -21,8 +21,10 @@
 /* Begin PBXFileReference section */
 		185D0F222081DB1B006C45B8 /* UIImage+JKImageExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+JKImageExtension.h"; sourceTree = "<group>"; };
 		185D0F232081DB1B006C45B8 /* UIImage+JKImageExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JKImageExtension.m"; sourceTree = "<group>"; };
-		18B5A241209AE6420063684D /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
-		18B5A242209AE6420063684D /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		18B5A241209AE6420063684D /* UITextView+JKPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+JKPlaceholder.h"; sourceTree = "<group>"; };
+		18B5A242209AE6420063684D /* UITextView+JKPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+JKPlaceholder.m"; sourceTree = "<group>"; };
+		18B5A247209AF27F0063684D /* UIViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewExtension.h; sourceTree = "<group>"; };
+		18B5A24B209AF33A0063684D /* JKScreenFit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKScreenFit.h; sourceTree = "<group>"; };
 		18E12919207B60F000F3B70C /* JKUIViewExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKUIViewExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E1291C207B60F000F3B70C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18E1291D207B60F000F3B70C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,8 +86,10 @@
 		18E12932207B610200F3B70C /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				18B5A241209AE6420063684D /* UITextView+Placeholder.h */,
-				18B5A242209AE6420063684D /* UITextView+Placeholder.m */,
+				18B5A247209AF27F0063684D /* UIViewExtension.h */,
+				18B5A24B209AF33A0063684D /* JKScreenFit.h */,
+				18B5A241209AE6420063684D /* UITextView+JKPlaceholder.h */,
+				18B5A242209AE6420063684D /* UITextView+JKPlaceholder.m */,
 				18E12933207B610200F3B70C /* UIView+JKUIViewExtension.h */,
 				18E12934207B610200F3B70C /* UIView+JKUIViewExtension.m */,
 				185D0F222081DB1B006C45B8 /* UIImage+JKImageExtension.h */,
@@ -165,7 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E12935207B610200F3B70C /* UIView+JKUIViewExtension.m in Sources */,
-				18B5A243209AE6420063684D /* UITextView+Placeholder.m in Sources */,
+				18B5A243209AE6420063684D /* UITextView+JKPlaceholder.m in Sources */,
 				18E12921207B60F000F3B70C /* ViewController.m in Sources */,
 				18E1292C207B60F200F3B70C /* main.m in Sources */,
 				18E1291E207B60F000F3B70C /* AppDelegate.m in Sources */,
