@@ -25,8 +25,8 @@ typedef NS_OPTIONS(NSUInteger, UIBorderSideType) {
 @property (nonatomic, assign) CGSize size;
 @property (nonatomic, assign) CGFloat maxX;//最小不能小于x, 影响w
 @property (nonatomic, assign) CGFloat maxY;//最小不能小于y, 影响h
-@property (nonatomic, assign) CGFloat centerX;//影响x
-@property (nonatomic, assign) CGFloat centerY;//影响y
+@property (nonatomic, assign) CGFloat jk_centerX;//影响x
+@property (nonatomic, assign) CGFloat jk_centerY;//影响y
 
 /**
  *  截图

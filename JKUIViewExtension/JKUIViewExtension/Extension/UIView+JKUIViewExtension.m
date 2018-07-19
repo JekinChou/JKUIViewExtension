@@ -10,7 +10,7 @@
 #import <OpenGLES/gltypes.h>
 #import <OpenGLES/ES1/gl.h>
 @implementation UIView (JKUIViewExtension)
-@dynamic x, y, w, h, width, height, maxX, maxY, centerX, centerY;
+@dynamic x, y, w, h, width, height, maxX, maxY, jk_centerX, jk_centerY;
 
 - (CGFloat)x {
     return self.frame.origin.x;
@@ -121,25 +121,24 @@
     }
     self.frame = rc;
 }
-
-- (CGFloat)centerX {
+- (CGFloat)jk_centerX {
     return self.center.x;
 }
-
-- (void)setCenterX:(CGFloat)centerX {
+- (void)setJk_centerX:(CGFloat)jk_centerX {
     CGPoint c = self.center;
-    c.x = centerX;
+    c.x = jk_centerX;
     self.center = c;
+
 }
 
-- (CGFloat)centerY {
+- (CGFloat)jk_centerY {
     return self.center.y;
 }
-
-- (void)setCenterY:(CGFloat)centerY {
+- (void)setJk_centerY:(CGFloat)jk_centerY {
     CGPoint c = self.center;
-    c.y = centerY;
+    c.y = jk_centerY;
     self.center = c;
+
 }
 
 - (UIImage *)snapshot {
