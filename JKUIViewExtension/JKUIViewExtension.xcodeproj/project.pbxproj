@@ -16,6 +16,7 @@
 		18E12929207B60F100F3B70C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E12927207B60F100F3B70C /* LaunchScreen.storyboard */; };
 		18E1292C207B60F200F3B70C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E1292B207B60F200F3B70C /* main.m */; };
 		18E12935207B610200F3B70C /* UIView+JKUIViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E12934207B610200F3B70C /* UIView+JKUIViewExtension.m */; };
+		7540C51C210F005300F3BB21 /* UIColor+hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540C51B210F005300F3BB21 /* UIColor+hex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		18E1292B207B60F200F3B70C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E12933207B610200F3B70C /* UIView+JKUIViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKUIViewExtension.h"; sourceTree = "<group>"; };
 		18E12934207B610200F3B70C /* UIView+JKUIViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKUIViewExtension.m"; sourceTree = "<group>"; };
+		7540C51A210F005300F3BB21 /* UIColor+hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+hex.h"; sourceTree = "<group>"; };
+		7540C51B210F005300F3BB21 /* UIColor+hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+hex.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				18E12934207B610200F3B70C /* UIView+JKUIViewExtension.m */,
 				185D0F222081DB1B006C45B8 /* UIImage+JKImageExtension.h */,
 				185D0F232081DB1B006C45B8 /* UIImage+JKImageExtension.m */,
+				7540C51A210F005300F3BB21 /* UIColor+hex.h */,
+				7540C51B210F005300F3BB21 /* UIColor+hex.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7540C51C210F005300F3BB21 /* UIColor+hex.m in Sources */,
 				18E12935207B610200F3B70C /* UIView+JKUIViewExtension.m in Sources */,
 				18B5A243209AE6420063684D /* UITextView+JKPlaceholder.m in Sources */,
 				18E12921207B60F000F3B70C /* ViewController.m in Sources */,
