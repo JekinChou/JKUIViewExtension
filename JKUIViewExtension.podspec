@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 #
 
 s.name         = "JKUIViewExtension"
-s.version      = "0.0.2"
+s.version      = "0.0.4"
 s.summary      = "view extension"
 s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 s.homepage     = "https://github.com/JekinChou/JKUIViewExtension"
